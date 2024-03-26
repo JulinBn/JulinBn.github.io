@@ -50,3 +50,44 @@ p {
     background-color: #ffffff;
     color: rgb(255, 255, 255);
     transform: scale(1.2)}
+
+    header{
+
+        width: 100%;
+        background-color:dimgray;
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+        padding: 20px 0;
+        
+        }
+        
+        .logo-imagem{
+        width: 50%;
+        height: 50%;
+        background-color: black;
+        border-radius: 25px;
+        
+        }
+        .conteiner-logo{
+        display: flex;
+        align-items: center;
+        }
+        
+        .logo-texto{
+        margin-left: 20px;
+        color: white;
+        }
+        
+        .manu li{
+        display: inline-block;
+        margin: 0 10px;
+        }
+        .manu {
+        font-size: 20px;
+        text-decoration: none;
+        color: white;
+        text-transform: uppercase;
+        background-color:gainsboro;
+        padding: 10px 10px;
+        }
