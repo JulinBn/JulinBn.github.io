@@ -86,6 +86,7 @@ p {
         .manu li{
         display: inline-block;
         margin: 0 10px;
+        width: 100px;
         }
         .manu {
         font-size: 1px;
