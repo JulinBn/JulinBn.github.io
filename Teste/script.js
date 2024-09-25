@@ -1,6 +1,4 @@
 const titulo = document.querySelector('h1');
-titulo.remove();
-
 
 // console.log(titulo.innerHTML)
 // console.log(titulo.innerText)
@@ -8,6 +6,8 @@ titulo.remove();
 
 const body  = document.querySelector('body');
 const ancora = document.createElement('a');
+const texto = document.createElement('textarea')
+
 ancora.text = 'Meu link';
 ancora.setAttribute('href','https://www.ifro.edu.br');
 ancora.setAttribute('target','_blank');
@@ -16,3 +16,10 @@ ancora.style.color = 'Green';
 ancora.style.textDecoration = 'none';
 ancora.style.fontWeight = 'bold';
 body.prepend(ancora);
+// texto.text = 'Meu primeiro Texto';
+// texto.querySelector('h1');
+// body.appendChild(texto);
+// texto.style.fontFamily = 'Verdana';
+// texto.style.fontWeight = 'bold';
+// console.log(texto.innerText);
+// console.log
